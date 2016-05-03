@@ -45,22 +45,6 @@
     &__video{
         text-align: center;
         padding-top: 2px;
-        a{
-            color: #28d7ed;
-            &:hover{
-                color: #7eedfb;
-            }
-            h4{
-                font-size: 16px;
-                display: inline-block;
-            }
-            i{
-                font-size: 14px;
-                position: relative;
-                top: 1px;
-                left: 5px;
-            }
-        }
     }
     &__interface{
         position: relative;
@@ -73,7 +57,24 @@
     }
 }
 
-
+.blue-link{
+    a{
+        color: #28d7ed;
+        &:hover{
+            color: #7eedfb;
+        }
+        h4{
+            font-size: 16px;
+            display: inline-block;
+        }
+        i{
+            font-size: 14px;
+            position: relative;
+            top: 1px;
+            left: 5px;
+        }
+    }
+}
 
 
     
