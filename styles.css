@@ -79,6 +79,33 @@
     top: -5px;
     right: 20px; }
 
+.concept {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  background-color: #212121;
+  color: #fff;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 50px; }
+  .concept h1 {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 35.98px; }
+  .concept p {
+    margin-top: -3px;
+    font-size: 15.96px;
+    line-height: 19.04px; }
+  .concept__feature {
+    padding-top: 80px; }
+  .concept__feature-item {
+    padding: 0 30px 58px 0; }
+  .concept h5 {
+    font-size: 15.96px;
+    padding-top: 17px; }
+  .concept__content {
+    font-size: 15.96px;
+    padding-top: 4px; }
+
 .header__try-it, .logo__title, .link__title {
   text-transform: uppercase;
   font-weight: bold; }
