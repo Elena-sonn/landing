@@ -1,3 +1,80 @@
+@import "vars.scss";
+
 .main{
+    width: 100%;
+    height: 895px;
     background-image: url(img/background_main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    &:after{
+        content: "";
+        display: block;
+        position: relative;
+        bottom: 0;
+        background-image: url(img/dark_line.png);
+        width: 100%;
+        height: 300px;
+        bottom: 314px;
+    }
+    &__top-line{
+        padding-top: 53px;
+    }
+    &__social{
+        padding: 13px 0px 0px;
+    }
+    &__sotial-item{
+        width: 30%;
+        display: inline-block;
+    }
+    &__slogan{
+        text-align: center;
+        color: #fff;
+        padding-top: 23px;
+        h1{
+            font-weight: 100;
+            font-size: 92px;
+        }
+        p{
+            font-weight: 300;
+            margin-top: -10px;
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+    &__video{
+        text-align: center;
+        padding-top: 2px;
+        a{
+            color: #28d7ed;
+            &:hover{
+                color: #7eedfb;
+            }
+            h4{
+                font-size: 16px;
+                display: inline-block;
+            }
+            i{
+                font-size: 14px;
+                position: relative;
+                top: 1px;
+                left: 5px;
+            }
+        }
+    }
+    &__interface{
+        position: relative;
+        top: -17px;
+        img{
+            display: block;
+            height: auto;
+            max-width: 100%;
+        }
+    }
 }
+
+
+
+
+    
+

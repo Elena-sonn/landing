@@ -1,0 +1,25 @@
+.indi-go-go{
+    background-color: #28d7ed;
+    text-align: center;
+    a{
+        color: rgba(255, 255, 255, 0.8);
+        h3{
+            display: inline-block;
+            margin: 38px 0;
+        }
+        &:hover{
+            color: rgba(255, 255, 255, 1);
+        }
+        i{
+            font-size: 34px;
+            position: relative;
+            top: 3px;
+            left: 10px;
+        }
+    }
+    img{
+        position: relative;
+        top: -5px;
+        right: 20px;
+    }
+}

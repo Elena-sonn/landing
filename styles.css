@@ -1,13 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,400,300);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
 .main {
-  background-image: url(img/background_main.png); }
+  width: 100%;
+  height: 895px;
+  background-image: url(img/background_main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden; }
+  .main:after {
+    content: "";
+    display: block;
+    position: relative;
+    bottom: 0;
+    background-image: url(img/dark_line.png);
+    width: 100%;
+    height: 300px;
+    bottom: 314px; }
+  .main__top-line {
+    padding-top: 53px; }
+  .main__social {
+    padding: 13px 0px 0px; }
+  .main__sotial-item {
+    width: 30%;
+    display: inline-block; }
+  .main__slogan {
+    text-align: center;
+    color: #fff;
+    padding-top: 23px; }
+    .main__slogan h1 {
+      font-weight: 100;
+      font-size: 92px; }
+    .main__slogan p {
+      font-weight: 300;
+      margin-top: -10px;
+      font-size: 16px;
+      line-height: 18px; }
+  .main__video {
+    text-align: center;
+    padding-top: 2px; }
+    .main__video a {
+      color: #28d7ed; }
+      .main__video a:hover {
+        color: #7eedfb; }
+      .main__video a h4 {
+        font-size: 16px;
+        display: inline-block; }
+      .main__video a i {
+        font-size: 14px;
+        position: relative;
+        top: 1px;
+        left: 5px; }
+  .main__interface {
+    position: relative;
+    top: -17px; }
+    .main__interface img {
+      display: block;
+      height: auto;
+      max-width: 100%; }
+
+.indi-go-go {
+  background-color: #28d7ed;
+  text-align: center; }
+  .indi-go-go a {
+    color: rgba(255, 255, 255, 0.8); }
+    .indi-go-go a h3 {
+      display: inline-block;
+      margin: 38px 0; }
+    .indi-go-go a:hover {
+      color: white; }
+    .indi-go-go a i {
+      font-size: 34px;
+      position: relative;
+      top: 3px;
+      left: 10px; }
+  .indi-go-go img {
+    position: relative;
+    top: -5px;
+    right: 20px; }
 
 .header__try-it, .logo__title, .link__title {
   text-transform: uppercase;
   font-weight: bold; }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Lato, sans-serif;
   font-size: 14px; }
 
 ul {
