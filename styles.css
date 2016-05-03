@@ -1,4 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
+.main {
+  background-image: url(img/background_main.png); }
+
 .header__try-it, .logo__title, .link__title {
   text-transform: uppercase;
   font-weight: bold; }
