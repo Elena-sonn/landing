@@ -118,6 +118,35 @@
       left: 5px;
       background-color: #20a3d1; }
 
+.possibil {
+  background-color: #f3f3f3;
+  text-align: center;
+  padding-bottom: 60px; }
+  .possibil p {
+    color: black;
+    margin-top: 50px;
+    font-size: 16px;
+    padding: 0 85px;
+    line-height: 24px; }
+  .possibil h4 {
+    font-size: 20px;
+    margin-top: 42px; }
+  .possibil__img-list {
+    margin-top: 70px; }
+  .possibil__img-list-item {
+    width: 220px;
+    height: 220px;
+    background-color: #b0b0b0;
+    padding: 0;
+    margin: 0 auto; }
+    .possibil__img-list-item--left {
+      margin-right: 0; }
+    .possibil__img-list-item--right {
+      margin-left: 0; }
+  .possibil h5 {
+    color: #9a9a9a;
+    margin-top: 19px; }
+
 .header__try-it, .logo__title, .link__title {
   text-transform: uppercase;
   font-weight: bold; }
@@ -149,11 +178,13 @@ li {
 /*title and subtitle from concept and interface block*/
 .header-title {
   margin-top: 60px;
-  font-family: Roboto, sans-serif;
+  font-family: Lato, sans-serif;
   font-weight: 300;
   font-size: 35.98px;
   color: #fff;
   text-align: center; }
+  .header-title--black {
+    color: #000; }
 
 .header-subtitle {
   font-family: Roboto, sans-serif;
