@@ -2,13 +2,11 @@
     background-color: #28d7ed;
     text-align: center;
     a{
-        color: rgba(255, 255, 255, 0.8);
+        cursor: pointer;
+        color: rgba(255, 255, 255, 1);
         h3{
             display: inline-block;
             margin: 38px 0;
-        }
-        &:hover{
-            color: rgba(255, 255, 255, 1);
         }
         i{
             font-size: 34px;
