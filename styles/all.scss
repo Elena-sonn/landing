@@ -51,13 +51,19 @@
             display: block;
             width: 35%;
             height: 1px;
-            background-color: #20a3d1;
+            background-color: $panel-line;
         }
         &--right{
             margin-top: 60px;
             &:after{
                 left: 0;
                 width: 100%;
+            }
+        }
+        &--right-long{
+            &:after{
+                left: -110px;
+                width: 40%;
             }
         }
     }

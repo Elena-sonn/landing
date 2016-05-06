@@ -93,15 +93,30 @@
   color: #fff;
   font-weight: 300;
   font-family: Roboto;
-  color: #818181; }
+  color: #818181;
+  Padding-bottom: 35px; }
   .interface__img-full {
     padding-top: 26px;
     padding-bottom: 90px; }
   .interface__l-and-r {
     margin-bottom: 80px; }
-    .interface__l-and-r__tutorial {
-      padding-top: 20px;
-      padding-left: 50px; }
+  .interface__tutorial {
+    padding-top: 12px;
+    padding-left: 50px; }
+  .interface__bottom-right-panel {
+    padding-top: 70px;
+    padding-left: 25px; }
+    .interface__bottom-right-panel h4 {
+      font-weight: 400;
+      color: #fff; }
+    .interface__bottom-right-panel:before {
+      content: "";
+      position: absolute;
+      display: inline-block;
+      width: 1px;
+      height: 160px;
+      left: 5px;
+      background-color: #20a3d1; }
 
 .header__try-it, .logo__title, .link__title {
   text-transform: uppercase;
@@ -167,6 +182,9 @@ li {
     .panel__title--right:after {
       left: 0;
       width: 100%; }
+  .panel__title--right-long:after {
+    left: -110px;
+    width: 40%; }
 .panel__list {
   padding-top: 2px;
   margin-bottom: 16px; }
