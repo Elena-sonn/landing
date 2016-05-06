@@ -2,31 +2,30 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
 .main {
   width: 100%;
-  height: 895px;
   background-image: url(img/background_main.png);
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative; }
   .main:after {
     content: "";
     display: block;
-    position: relative;
+    position: absolute;
     bottom: 0;
     background-image: url(img/dark_line.png);
     width: 100%;
-    height: 300px;
-    bottom: 314px; }
+    height: 13em;
+    z-index: 3; }
   .main__top-line {
     padding-top: 53px; }
   .main__social {
-    padding: 13px 0px 0px; }
-  .main__sotial-item {
-    width: 30%;
-    display: inline-block; }
+    padding-top: 13px; }
   .main__slogan {
     text-align: center;
     color: #fff;
-    padding-top: 23px; }
+    padding-top: 23px;
+    cursor: default;
+    word-wrap: break-word; }
     .main__slogan h1 {
       font-weight: 100;
       font-size: 92px; }
@@ -37,10 +36,13 @@
       line-height: 18px; }
   .main__video {
     text-align: center;
-    padding-top: 2px; }
+    padding-top: 2px;
+    cursor: default;
+    z-index: 2; }
   .main__interface {
     position: relative;
-    top: -17px; }
+    margin-top: -17px;
+    z-index: 1; }
     .main__interface img {
       display: block;
       height: auto;
@@ -63,10 +65,12 @@
   background-color: #28d7ed;
   text-align: center; }
   .indi-go-go a {
-    color: white; }
+    color: rgba(255, 255, 255, 0.8); }
     .indi-go-go a h3 {
       display: inline-block;
       margin: 38px 0; }
+    .indi-go-go a:hover {
+      color: white; }
     .indi-go-go a i {
       font-size: 34px;
       position: relative;
