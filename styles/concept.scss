@@ -3,24 +3,16 @@
     font-weight: 300;
     background-color: #212121;
     color: #fff;
-    text-align: center;
-    padding-top: 40px;
     padding-bottom: 50px;
-    h1{
-        font-family: Roboto, sans-serif;
-        font-weight: 300;
-        font-size: $_font-size * 2.57;
-    }
-    p{
-        margin-top: -3px;
-        font-size: $_font-size * 1.14;
-        line-height: $_font-size * 1.36;
+    text-align: center;
+    a{
+        cursor: pointer;
     }
     &__feature{
-        padding-top: 80px;
+        padding: 80px 0 6px 0;
     }
     &__feature-item{
-        padding: 0 30px 58px 0;
+        padding: 0 40px 30px 40px;
     }
     h5{
         font-size: $_font-size * 1.14;
@@ -28,6 +20,7 @@
     }
     &__content{
         font-size: $_font-size * 1.14;
-        padding-top: 4px;
+        margin-top: -1px;
+        line-height: 20px;
     }
 }

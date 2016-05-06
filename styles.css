@@ -48,25 +48,12 @@
       height: auto;
       max-width: 100%; }
 
-.blue-link a {
-  color: #28d7ed; }
-  .blue-link a:hover {
-    color: #7eedfb; }
-  .blue-link a h4 {
-    font-size: 16px;
-    display: inline-block; }
-  .blue-link a i {
-    font-size: 14px;
-    position: relative;
-    top: 1px;
-    left: 5px; }
-
 .indi-go-go {
   background-color: #28d7ed;
   text-align: center; }
   .indi-go-go a {
     cursor: pointer;
-    color: white; }
+    color: #fff; }
     .indi-go-go a h3 {
       display: inline-block;
       margin: 38px 0; }
@@ -85,27 +72,36 @@
   font-weight: 300;
   background-color: #212121;
   color: #fff;
-  text-align: center;
-  padding-top: 40px;
-  padding-bottom: 50px; }
-  .concept h1 {
-    font-family: Roboto, sans-serif;
-    font-weight: 300;
-    font-size: 35.98px; }
-  .concept p {
-    margin-top: -3px;
-    font-size: 15.96px;
-    line-height: 19.04px; }
+  padding-bottom: 50px;
+  text-align: center; }
+  .concept a {
+    cursor: pointer; }
   .concept__feature {
-    padding-top: 80px; }
+    padding: 80px 0 6px 0; }
   .concept__feature-item {
-    padding: 0 30px 58px 0; }
+    padding: 0 40px 30px 40px; }
   .concept h5 {
     font-size: 15.96px;
     padding-top: 17px; }
   .concept__content {
     font-size: 15.96px;
-    padding-top: 4px; }
+    margin-top: -1px;
+    line-height: 20px; }
+
+.interface {
+  background-color: #151820;
+  color: #fff;
+  font-weight: 300;
+  font-family: Roboto;
+  color: #818181; }
+  .interface__img-full {
+    padding-top: 26px;
+    padding-bottom: 90px; }
+  .interface__l-and-r {
+    margin-bottom: 80px; }
+    .interface__l-and-r__tutorial {
+      padding-top: 20px;
+      padding-left: 50px; }
 
 .header__try-it, .logo__title, .link__title {
   text-transform: uppercase;
@@ -120,6 +116,67 @@ ul {
 
 li {
   list-style-type: none; }
+
+/*link from main block and concept block*/
+.blue-link a {
+  color: #28d7ed; }
+  .blue-link a:hover {
+    color: #7eedfb; }
+  .blue-link a h4 {
+    font-size: 16px;
+    display: inline-block; }
+  .blue-link a i {
+    font-size: 14px;
+    position: relative;
+    top: 1px;
+    left: 5px; }
+
+/*title and subtitle from concept and interface block*/
+.header-title {
+  margin-top: 60px;
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 35.98px;
+  color: #fff;
+  text-align: center; }
+
+.header-subtitle {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  margin-top: -3px;
+  font-size: 15.96px;
+  line-height: 19.04px;
+  color: #fff;
+  text-align: center; }
+
+/*interface block panel-title*/
+.panel__title {
+  font-weight: 400;
+  color: #fff; }
+  .panel__title:after {
+    content: "";
+    margin-top: 6px;
+    position: relative;
+    left: -34px;
+    display: block;
+    width: 35%;
+    height: 1px;
+    background-color: #20a3d1; }
+  .panel__title--right {
+    margin-top: 60px; }
+    .panel__title--right:after {
+      left: 0;
+      width: 100%; }
+.panel__list {
+  padding-top: 2px;
+  margin-bottom: 16px; }
+  .panel__list li {
+    padding-bottom: 3px;
+    margin-bottom: -5px; }
+    .panel__list li:before {
+      content: "-";
+      display: inline-block;
+      padding-right: 5px; }
 
 .header {
   min-height: 100vh;
