@@ -50,22 +50,17 @@
 
 .indi-go-go {
   background-color: #28d7ed;
-  text-align: center; }
+  text-align: center;
+  font-size: 24px;
+  padding-top: 34px;
+  padding-bottom: 30px; }
   .indi-go-go a {
     cursor: pointer;
     color: #fff; }
-    .indi-go-go a h3 {
-      display: inline-block;
-      margin: 38px 0; }
-    .indi-go-go a i {
-      font-size: 34px;
-      position: relative;
-      top: 3px;
-      left: 10px; }
-  .indi-go-go img {
-    position: relative;
-    top: -5px;
-    right: 20px; }
+  .indi-go-go__logo {
+    margin-right: 20px; }
+  .indi-go-go__pointer {
+    margin-left: 5px; }
 
 .concept {
   font-family: Roboto, sans-serif;
