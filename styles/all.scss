@@ -1,15 +1,12 @@
 /*link from main block and concept block*/
 .blue-link{
     a{
+        font-size: 16px;
         color: #28d7ed;
         &:hover{
             color: #7eedfb;
         }
-        h4{
-            font-size: 16px;
-            display: inline-block;
-        }
-        i{
+        span{
             font-size: 14px;
             position: relative;
             top: 1px;

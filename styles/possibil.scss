@@ -16,6 +16,9 @@
     &__img-list{
         margin-top: 70px;
     }
+    &__container{
+        padding-bottom: 10px;
+    }
     &__img-list-item{
         width: 220px;
         height: 220px;
@@ -35,4 +38,15 @@
     }
 }
 
-
+@media screen and (max-width: 1200px){
+    .possibil{
+        &__img-list-item{
+            &--left{
+                margin: auto;
+            }
+            &--right{
+                margin: auto;
+            }
+        }
+    }
+}

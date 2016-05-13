@@ -26,29 +26,29 @@
     &__slogan{
         text-align: center;
         color: $text-color;
-        padding-top: 23px;
+        padding-top: 50px;
+        padding-bottom: 8px;
         cursor: default;
         word-wrap: break-word;
-        h1{
-            font-weight: 100;
-            font-size: 92px;
-        }
-        p{
+        font-size: 92px;
+        font-weight: 100;
+        line-height: 85px;
+       p {
             font-weight: 300;
-            margin-top: -10px;
+            margin-top: 7px;
             font-size: 16px;
             line-height: 18px;
         }
     }
     &__video{
         text-align: center;
-        padding-top: 2px;
+        padding-top: 4px;
         cursor: default;
         z-index: 2;
     }
     &__interface{
         position: relative;
-        margin-top: -17px;
+        margin-top: -10px;
         z-index: 1;
         img{
             display: block;

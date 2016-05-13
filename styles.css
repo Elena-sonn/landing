@@ -23,25 +23,26 @@
   .main__slogan {
     text-align: center;
     color: #fff;
-    padding-top: 23px;
+    padding-top: 50px;
+    padding-bottom: 8px;
     cursor: default;
-    word-wrap: break-word; }
-    .main__slogan h1 {
-      font-weight: 100;
-      font-size: 92px; }
+    word-wrap: break-word;
+    font-size: 92px;
+    font-weight: 100;
+    line-height: 85px; }
     .main__slogan p {
       font-weight: 300;
-      margin-top: -10px;
+      margin-top: 7px;
       font-size: 16px;
       line-height: 18px; }
   .main__video {
     text-align: center;
-    padding-top: 2px;
+    padding-top: 4px;
     cursor: default;
     z-index: 2; }
   .main__interface {
     position: relative;
-    margin-top: -17px;
+    margin-top: -10px;
     z-index: 1; }
     .main__interface img {
       display: block;
@@ -128,6 +129,8 @@
     margin-top: 42px; }
   .possibil__img-list {
     margin-top: 70px; }
+  .possibil__container {
+    padding-bottom: 10px; }
   .possibil__img-list-item {
     width: 220px;
     height: 220px;
@@ -142,6 +145,11 @@
     color: #9a9a9a;
     margin-top: 19px; }
 
+@media screen and (max-width: 1200px) {
+  .possibil__img-list-item--left {
+    margin: auto; }
+  .possibil__img-list-item--right {
+    margin: auto; } }
 .join {
   padding-top: 20px;
   background-color: #151820;
@@ -195,13 +203,11 @@ li {
 
 /*link from main block and concept block*/
 .blue-link a {
+  font-size: 16px;
   color: #28d7ed; }
   .blue-link a:hover {
     color: #7eedfb; }
-  .blue-link a h4 {
-    font-size: 16px;
-    display: inline-block; }
-  .blue-link a i {
+  .blue-link a span {
     font-size: 14px;
     position: relative;
     top: 1px;
