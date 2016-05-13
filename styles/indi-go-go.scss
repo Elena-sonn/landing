@@ -1,0 +1,19 @@
+.indi-go-go{
+    background-color: #28d7ed;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 34px;
+    padding-bottom: 30px;
+    a{
+        cursor: pointer;
+        color: $text-color;
+    }
+    &__logo{
+        margin-right: 20px;
+    }
+    &__pointer{
+        margin-left: 5px;
+    }
+}
+
+

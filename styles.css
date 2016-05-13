@@ -1,10 +1,198 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,400,300);
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300);
+.main {
+  width: 100%;
+  background-image: url(img/background_main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative; }
+  .main:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background-image: url(img/dark_line.png);
+    width: 100%;
+    height: 13em;
+    z-index: 3; }
+  .main__top-line {
+    padding-top: 53px; }
+  .main__social {
+    padding-top: 13px; }
+  .main__slogan {
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 8px;
+    cursor: default;
+    word-wrap: break-word;
+    font-size: 92px;
+    font-weight: 100;
+    line-height: 85px; }
+    .main__slogan p {
+      font-weight: 300;
+      margin-top: 7px;
+      font-size: 16px;
+      line-height: 18px; }
+  .main__video {
+    text-align: center;
+    padding-top: 4px;
+    cursor: default;
+    z-index: 2; }
+  .main__interface {
+    position: relative;
+    margin-top: -10px;
+    z-index: 1; }
+    .main__interface img {
+      display: block;
+      height: auto;
+      max-width: 100%; }
+
+.indi-go-go {
+  background-color: #28d7ed;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 34px;
+  padding-bottom: 30px; }
+  .indi-go-go a {
+    cursor: pointer;
+    color: #fff; }
+  .indi-go-go__logo {
+    margin-right: 20px; }
+  .indi-go-go__pointer {
+    margin-left: 5px; }
+
+.concept {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  background-color: #212121;
+  color: #fff;
+  padding-bottom: 50px;
+  text-align: center; }
+  .concept a {
+    cursor: pointer; }
+  .concept__feature {
+    padding: 80px 0 6px 0; }
+  .concept__feature-item {
+    padding: 0 40px 30px 40px; }
+  .concept h5 {
+    font-size: 15.96px;
+    padding-top: 17px; }
+  .concept__content {
+    font-size: 15.96px;
+    margin-top: -1px;
+    line-height: 20px; }
+
+.interface {
+  background-color: #151820;
+  color: #fff;
+  font-weight: 300;
+  font-family: Roboto;
+  color: #818181;
+  Padding-bottom: 35px; }
+  .interface__img-full {
+    padding-top: 26px;
+    padding-bottom: 90px; }
+  .interface__l-and-r {
+    margin-bottom: 80px; }
+  .interface__tutorial {
+    padding-top: 12px;
+    padding-left: 50px; }
+  .interface__bottom-right-panel {
+    padding-top: 70px;
+    padding-left: 25px; }
+    .interface__bottom-right-panel h4 {
+      font-weight: 400;
+      color: #fff; }
+    .interface__bottom-right-panel:before {
+      content: "";
+      position: absolute;
+      display: inline-block;
+      width: 1px;
+      height: 160px;
+      left: 5px;
+      background-color: #20a3d1; }
+
+.possibil {
+  background-color: #f3f3f3;
+  text-align: center;
+  padding-bottom: 60px; }
+  .possibil p {
+    color: black;
+    margin-top: 50px;
+    font-size: 16px;
+    padding: 0 85px;
+    line-height: 24px; }
+  .possibil h4 {
+    font-size: 20px;
+    margin-top: 42px; }
+  .possibil__img-list {
+    margin-top: 70px; }
+  .possibil__container {
+    padding-bottom: 10px; }
+  .possibil__img-list-item {
+    width: 220px;
+    height: 220px;
+    background-color: #b0b0b0;
+    padding: 0;
+    margin: 0 auto; }
+    .possibil__img-list-item--left {
+      margin-right: 0; }
+    .possibil__img-list-item--right {
+      margin-left: 0; }
+  .possibil h5 {
+    color: #9a9a9a;
+    margin-top: 19px; }
+
+@media screen and (max-width: 1200px) {
+  .possibil__img-list-item--left {
+    margin: auto; }
+  .possibil__img-list-item--right {
+    margin: auto; } }
+.join {
+  padding-top: 20px;
+  background-color: #151820;
+  text-align: center;
+  padding-bottom: 100px; }
+  .join p {
+    margin-top: 45px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 23px; }
+  .join h5 {
+    color: #7a7a7a;
+    margin-top: 93px; }
+  .join__timer {
+    font-size: 37px;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    margin-top: -8px;
+    color: #d4d4d5; }
+  .join a {
+    cursor: pointer; }
+  .join__button {
+    width: 100%;
+    height: 72px;
+    background-color: #146b76;
+    margin-top: 20px;
+    border-radius: 40px;
+    font-size: 37px;
+    color: #747879;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    line-height: 72px; }
+  .join h4 {
+    margin-top: 53px;
+    color: #f3f3f3;
+    margin-bottom: 36px; }
+
 .header__try-it, .logo__title, .link__title {
   text-transform: uppercase;
   font-weight: bold; }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Lato, sans-serif;
   font-size: 14px; }
 
 ul {
@@ -12,6 +200,70 @@ ul {
 
 li {
   list-style-type: none; }
+
+/*link from main block and concept block*/
+.blue-link a {
+  font-size: 16px;
+  color: #28d7ed; }
+  .blue-link a:hover {
+    color: #7eedfb; }
+  .blue-link a span {
+    font-size: 14px;
+    position: relative;
+    top: 1px;
+    left: 5px; }
+
+/*title and subtitle from concept and interface block*/
+.header-title {
+  margin-top: 60px;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-size: 35.98px;
+  color: #fff;
+  text-align: center; }
+  .header-title--black {
+    color: #000; }
+
+.header-subtitle {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  margin-top: -3px;
+  font-size: 15.96px;
+  line-height: 19.04px;
+  color: #fff;
+  text-align: center; }
+
+/*interface block panel-title*/
+.panel__title {
+  font-weight: 400;
+  color: #fff; }
+  .panel__title:after {
+    content: "";
+    margin-top: 6px;
+    position: relative;
+    left: -34px;
+    display: block;
+    width: 35%;
+    height: 1px;
+    background-color: #20a3d1; }
+  .panel__title--right {
+    margin-top: 60px; }
+    .panel__title--right:after {
+      left: 0;
+      width: 100%; }
+  .panel__title--right-long:after {
+    left: -110px;
+    width: 40%; }
+.panel__list {
+  padding-top: 2px;
+  margin-bottom: 16px; }
+  .panel__list li {
+    padding-bottom: 3px;
+    margin-bottom: -5px; }
+    .panel__list li:before {
+      content: "-";
+      display: inline-block;
+      padding-right: 5px; }
 
 .header {
   min-height: 100vh;

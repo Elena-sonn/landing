@@ -1,0 +1,84 @@
+/*link from main block and concept block*/
+.blue-link{
+    a{
+        font-size: 16px;
+        color: #28d7ed;
+        &:hover{
+            color: #7eedfb;
+        }
+        span{
+            font-size: 14px;
+            position: relative;
+            top: 1px;
+            left: 5px;
+        }
+    }
+}
+
+/*title and subtitle from concept and interface block*/
+.header-title{
+    &--black{
+        color: #000;
+    }
+    margin-top: 60px;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: $_font-size * 2.57;
+    color: $text-color;
+    text-align: center;
+}
+
+.header-subtitle{
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    margin-top: -3px;
+    font-size: $_font-size * 1.14;
+    line-height: $_font-size * 1.36;
+    color: $text-color;
+    text-align: center;
+}
+
+/*interface block panel-title*/
+.panel{
+    &__title{
+        font-weight: 400;
+        color: $text-color;
+        &:after{
+            content: "";
+            margin-top: 6px;
+            position: relative;
+            left: -34px;
+            display: block;
+            width: 35%;
+            height: 1px;
+            background-color: $panel-line;
+        }
+        &--right{
+            margin-top: 60px;
+            &:after{
+                left: 0;
+                width: 100%;
+            }
+        }
+        &--right-long{
+            &:after{
+                left: -110px;
+                width: 40%;
+            }
+        }
+    }
+    &__list{
+        padding-top: 2px;
+        margin-bottom: 16px;
+        li{
+            padding-bottom: 3px;
+            margin-bottom: -5px;
+            &:before{
+                content: "-";
+                display: inline-block;
+                padding-right: 5px;
+                
+            }
+        }
+    }
+}

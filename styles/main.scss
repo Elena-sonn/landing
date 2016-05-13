@@ -1,0 +1,61 @@
+@import "vars.scss";
+
+.main{
+    width: 100%;
+    background-image: url(img/background_main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    &:after{
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        background-image: url(img/dark_line.png);
+        width: 100%;
+        height: 13em;
+        z-index: 3;
+    }
+    &__top-line{
+        padding-top: 53px;
+    }
+    &__social{
+        padding-top: 13px;
+    }
+    &__slogan{
+        text-align: center;
+        color: $text-color;
+        padding-top: 50px;
+        padding-bottom: 8px;
+        cursor: default;
+        word-wrap: break-word;
+        font-size: 92px;
+        font-weight: 100;
+        line-height: 85px;
+       p {
+            font-weight: 300;
+            margin-top: 7px;
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+    &__video{
+        text-align: center;
+        padding-top: 4px;
+        cursor: default;
+        z-index: 2;
+    }
+    &__interface{
+        position: relative;
+        margin-top: -10px;
+        z-index: 1;
+        img{
+            display: block;
+            height: auto;
+            max-width: 100%;
+        }
+    }
+}
+
+
